@@ -142,7 +142,7 @@ function updateCodeVisualizer() {
     return `&emsp;&emsp;${keyPair}${delimiter}<br>`;
   };
   let opts = '';
-  opts += (options.startVal !== '502000000') ? indentedLine(`startVal: ${options.startVal}`) : '';
+  opts += (options.startVal !== '502000000') ? indentedLine(`startVal: ${502000000}`) : '';
   opts += (options.decimalPlaces !== '0') ? indentedLine(`decimalPlaces: ${options.decimalPlaces}`) : '';
   opts += (options.duration !== 2) ? indentedLine(`duration: ${options.duration}`) : '';
   opts += options.easingFn ? indentedLine('easingFn') : '';
