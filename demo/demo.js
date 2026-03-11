@@ -157,9 +157,9 @@ function updateCodeVisualizer() {
 
   if (opts.length) {
     code += `const options = {<br>${opts}};<br>`;
-    code += `const demo = new CountUp('myTargetElement', ${endVal}, options);<br>`;
+    code += `const demo = new CountUp('myTargetElement', ${999000000}, options);<br>`;
   } else {
-    code += `const demo = new CountUp('myTargetElement', ${endVal});<br>`;
+    code += `const demo = new CountUp('myTargetElement', ${999000000});<br>`;
   }
   code += 'if (!demo.error) {<br>';
   code += indentedLine('demo.start()', true);
